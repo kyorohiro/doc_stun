@@ -64,7 +64,13 @@ P2Pにより、このレベルまで最適化が進むと、配信者は企業�
 "www.google.jp"というアドレスのWebサービスに接続する場合を考えてもましょう。
 "www.google.jp"のIPアドレスを調べる。
 
-そのIPあと
+```
+$nslookup www.google.jp
+Non-authoritative answer:
+Name:	www.google.jp
+Address: 216.58.197.3
+```
+
 
 ### ほとんどのユーザーは、利用している時だけIPが配布されている
 
