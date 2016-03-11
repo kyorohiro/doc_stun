@@ -69,6 +69,7 @@ Non-authoritative answer:
 Name:	www.google.jp
 Address: 216.58.197.3
 ```
+
 この、"216.58.197.3"というIPアドレスを、ブラウザーに入力してみてください。
 GoogleのWebページが表示されるはずです。
 
