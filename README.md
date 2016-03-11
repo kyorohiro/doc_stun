@@ -124,7 +124,7 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 
 ### STUN を利用して、これらの状態を知る事ができる。
 
-　本書では、STUNを利用する方法を紹介しまする
+　本書では、STUNを利用する方法を紹介します。
  
 
 
