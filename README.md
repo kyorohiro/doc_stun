@@ -136,6 +136,7 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 
 # [3] Nat越えしてみよう
 
+実際にNat越えしてみましょう。
 
 
 ### インターネット上のコンピュータは、IPアドレスでつながっている
