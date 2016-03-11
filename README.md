@@ -105,8 +105,6 @@ lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
 	inet 127.0.0.1 netmask 0xff000000 
 	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
 	nd6 options=1<PERFORMNUD>
-gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
-stf0: flags=0<> mtu 1280
 en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	options=10b<RXCSUM,TXCSUM,VLAN_HWTAGGING,AV>
 	ether 10:dd:b1:d1:b1:37 
@@ -116,6 +114,7 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 	media: autoselect (100baseTX <full-duplex,flow-control>)
 	status: active
 ```
+
 といった、情報が表示されます。
 
 
