@@ -25,8 +25,6 @@ xxx
 xxx
 
 
-
-
 # [2] STUNとは
 
 xx
