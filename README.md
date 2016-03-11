@@ -1,6 +1,4 @@
-
-
-goog# なぜなに STUN 
+# なぜなに STUN 
 
 本書は、"なぜなに Torrent"の姉妹本です。
 "なぜなに Torrent"と同様に、実際にSTUN Server と STUN Client を実装して得た知見やノウハウを元に、アレコレP2Pについて解説してきます。
