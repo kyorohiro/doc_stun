@@ -97,7 +97,26 @@ IPv4は、2の32乗=43億のIPアドレスしか管理できません。
  
  試しに、自分の端末に割り振られているIPをチェックしてみましょう。
  
-
+```
+$ifconfig
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 16384
+	options=3<RXCSUM,TXCSUM>
+	inet6 ::1 prefixlen 128 
+	inet 127.0.0.1 netmask 0xff000000 
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x1 
+	nd6 options=1<PERFORMNUD>
+gif0: flags=8010<POINTOPOINT,MULTICAST> mtu 1280
+stf0: flags=0<> mtu 1280
+en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	options=10b<RXCSUM,TXCSUM,VLAN_HWTAGGING,AV>
+	ether 10:dd:b1:d1:b1:37 
+	inet6 fe80::12dd:b1ff:fed1:b137%en0 prefixlen 64 scopeid 0x4 
+	inet 192.168.10.101 netmask 0xffffff00 broadcast 192.168.10.255
+	nd6 options=1<PERFORMNUD>
+	media: autoselect (100baseTX <full-duplex,flow-control>)
+	status: active
+```
+といった、情報が表示されます。
 
 
 ### STUN を利用して、これらの状態を知る事ができる。
