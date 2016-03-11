@@ -134,15 +134,9 @@ en0: flags=8863<UP,BROADCAST,SMART,RUNNING,SIMPLEX,MULTICAST> mtu 1500
 
 
 
-
- 
-
+# [3] Nat越えしてみよう
 
 
-
-
-
-# [3] ルータが隠蔽している世界
 
 ### インターネット上のコンピュータは、IPアドレスでつながっている
 xxx
