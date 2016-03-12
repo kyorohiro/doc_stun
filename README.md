@@ -67,8 +67,14 @@ C、Java系の流れを組んでいるため、多くの人が読むことがで
 STUNを利用するには、IPアドレスが2つ必要です。　うーん、難しいですね。
 VPSを借りるのが良いでしょう。
 
-Serversman (http://dream.jp/vps/)、　DigitalOcean(https://www.digitalocean.com/)
+Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)を利用すると良いでしょう。
 
+### Serversmanを利用する場合
+
+2016/3/12 現在に試してもので、将来的に保証されるものではあれません。
+1. Standard Plugn 以上で契約してください
+2. ubuntu 64bit のOSを選んでください。
+2. 
 
 
 
