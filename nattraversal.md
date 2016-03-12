@@ -221,7 +221,8 @@ STUNでは、もう少し細かく分類してくれます。
 |Port Restricted|o|x|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、同じIPとPORTが返る|
 
 
-といった感じです。
+といった感じです。サーバー機能を利用して待ち受けできるのは、"Open Internet" と "Full Cone"　のみとなります。
+
 
 
 
