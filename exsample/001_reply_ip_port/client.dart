@@ -4,8 +4,8 @@ import 'dart:convert';
 main(List<String> args) async {
   String clAddr = args[0];
   int clPort = int.parse(args[1]);
-  String svAddr = args[0];
-  int svPort = int.parse(args[1]);
+  String svAddr = args[2];
+  int svPort = int.parse(args[3]);
 
   startUDPClient(clAddr, clPort, svAddr, svPort);
   startTCPClient(svAddr, svPort);
