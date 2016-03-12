@@ -89,9 +89,13 @@ startTCPClient(String svAddr, int svPort) async {
 
 client側のコードも30行程度ですね!!
 
+
+
 #### TCP よりも UDPの方がP2Pに向いている
 
-UDPもTCPもIPアドレスが
+はい、UDPもTCPもIPアドレスを特定する事ができます。しかし、TCPだと、どのようなPort番号が設定されているかを確認する方法がないですね。
+
+
 
 
 
