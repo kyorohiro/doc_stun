@@ -95,7 +95,10 @@ client側のコードも30行程度ですね!!
 
 はい、UDPもTCPもIPアドレスを特定する事ができます。しかし、TCPだと、どのようなPort番号が設定されているかを確認する方法がないですね。
 
-
+```
+  Socket socket = await Socket.connect(svAddr, svPort);
+  socket.add(UTF8.encode(""));
+```
 
 
 
