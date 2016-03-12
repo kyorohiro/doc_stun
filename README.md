@@ -90,6 +90,8 @@ https://www.dartlang.org/downloads/linux.html
 ###### 3.4 $apt-get update
 ###### 3.5 $apt-get install apt-transport-https
 ###### 3.6 $sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -'
+###### 3.7 $sh -c 'curl https://storage.googleapis.com/download.dartlang.org/linux/debian/dart_stable.list > /etc/apt/sources.list.d/dart_stable.list'
+###### 3.8 
 
 
 
