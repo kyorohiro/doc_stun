@@ -21,7 +21,7 @@ startUDPServer(String primaryAddr, int primaryPort, String secondaryAddr, int se
       String request = UTF8.decode(dg.data);
       String content = "${dg.address.address},${dg.port}\n";
       print("udp: ${request}");
-      RawDatagramSocket socket = sockets[content];
+      RawDatagramSocket socket = sockets[request];
       socket.send(UTF8.encode(content), dg.address, dg.port);
     }
   });
