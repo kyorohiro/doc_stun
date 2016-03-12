@@ -87,7 +87,7 @@ startTCPClient(String svAddr, int svPort) async {
 }
 ```
 
-client側のコードもあまりないですね!!
+client側のコードも30行程度ですね!!
 
 #### TCP よりも UDPの方がP2Pに向いている
 
