@@ -17,12 +17,14 @@ startUDPServer(String primaryAddr, int primaryPort, String secondaryAddr, int se
   Map sockets = {"PP": ppSocket, "PS": psSocket, "SP": spSocket, "SS": ssSocket};
   ppSocket.listen((RawSocketEvent event) {
     if (event == RawSocketEvent.READ) {
-      Datagram dg = ppSocket.receive();
-      String request = UTF8.decode(dg.data);
-      String content = "${dg.address.address},${dg.port}\n";
-      print("udp: ${request}");
-      RawDatagramSocket socket = sockets[request];
-      socket.send(UTF8.encode(content), dg.address, dg.port);
+      try {
+        Datagram dg = ppSocket.receive();
+        String request = UTF8.decode(dg.data);
+        String content = "${dg.address.address},${dg.port}\n";
+        print("udp: ${request}");
+        RawDatagramSocket socket = sockets[request];
+        socket.send(UTF8.encode(content), dg.address, dg.port);
+      } catch (e) {}
     }
   });
 }
