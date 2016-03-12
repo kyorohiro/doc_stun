@@ -82,6 +82,7 @@ Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)�
 ###### 2.1. $ssh root@(your ip) -p (your port)
 ##### 3. 色々インストールする
 ###### 3.1 $apt-get update
+###### 3.2 $apt-get upgrade
 ###### 3.2 $apt-get install git
 ###### 3.3 $apt-get install emacs
 ##### 4. Dartをインストール
