@@ -215,8 +215,9 @@ STUNでは、もう少し細かく分類してくれます。
 |Open Internet|o|-|-|o|ifconfigのIPとPORTがSTUNサーバーから受け取ったIPが同じ|
 |Symmetric UDP Firewall|o|-|-|x|ifconfigのIPとPORTがSTUNサーバーから受け取ったIPが同じ|
 |Full Cone|o|-|-|o|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う|
-|Restricted|o|-|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、同じIPとPORTが返る|
-|Port Restricted|o|-|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、同じIPとPORTが返る|
+|Symmetric NAT|o|-|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、異なるIPとPORTが返る|
+|Restricted|o|o|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、同じIPとPORTが返る|
+|Port Restricted|o|x|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、同じIPとPORTが返る|
 
 TODO
 
