@@ -47,7 +47,7 @@ TODO
 
 |\|PP|PS|SP|SS|
 |-|-|-|-|-|
-|OPEN INTERNET||||
+|Open Internet||||
 |||||
 |||||
 
