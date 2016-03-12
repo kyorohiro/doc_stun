@@ -47,7 +47,7 @@ TODO
 
 |\|PP|PS|SP|SS||
 |-|-|-|-|-|-|
-|Open Internet|o|-|-|o|ifconfigのIP|
+|Open Internet|o|-|-|o|serverのIPとifconfigのIPが同じ|
 |||||
 |||||
 
