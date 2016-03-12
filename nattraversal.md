@@ -87,6 +87,8 @@ startTCPClient(String svAddr, int svPort) async {
 }
 ```
 
+client側のコードもあまりないですね!!
+
 #### TCP よりも UDPの方がP2Pに向いている
 
 UDPもTCPもIPアドレスが
