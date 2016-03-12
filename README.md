@@ -69,6 +69,7 @@ VPSを借りるのが良いでしょう。
 
 Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)を利用すると良いでしょう。
 
+
 ### Serversmanを利用する場合
 
 2016/3/12 現在に試してもので、将来的に保証されるものではあれません。
