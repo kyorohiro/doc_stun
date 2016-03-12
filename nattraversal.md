@@ -214,6 +214,7 @@ STUNでは、もう少し細かく分類してくれます。
 |-|-|-|-|-|-|
 |Open Internet|o|-|-|o|ifconfigのIPとSTUNサーバーから受け取ったIPが同じ|
 |Symmetric UDP Firewall|o|-|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPが同じ|
+|Full Cone|o|-|-|o|ifconfigのIPとSTUNサーバーから受け取ったIPが違う|
 |||||
 
 TODO
