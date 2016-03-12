@@ -213,7 +213,7 @@ STUNでは、もう少し細かく分類してくれます。
 |\|PP|PS|SP|SS||
 |-|-|-|-|-|-|
 |Open Internet|o|-|-|o|ifconfigのIPとSTUNサーバーから受け取ったIPが同じ|
-|||||
+|Symmetric UDP Firewall|o|-|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPが同じ|
 |||||
 
 TODO
