@@ -220,7 +220,8 @@ STUNでは、もう少し細かく分類してくれます。
 |Restricted|o|o|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、同じIPとPORTが返る|
 |Port Restricted|o|x|-|x|ifconfigのIPとSTUNサーバーから受け取ったIPとPORTが違う。 複数回試しても、同じIPとPORTが返る|
 
-TODO
+
+といった感じです。
 
 
 
