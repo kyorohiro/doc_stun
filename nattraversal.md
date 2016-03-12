@@ -202,6 +202,9 @@ startUDPClient(String clAddr, int clPort, String svAddr, int svPort, String type
 }
 ```
 
+どうでしょうか。30行程度のコードです。
+
+
 #### STUN の分類方法
 
 |\|PP|PS|SP|SS||
