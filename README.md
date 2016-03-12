@@ -73,7 +73,7 @@ Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)�
 ### Serversmanを利用する場合
 
 2016/3/12 現在に試してもので、将来的に保証されるものではあれません。
-1. Standard Plugn 以上で契約してください
+1. Standard Plan 以上で契約してください
 2. ubuntu 64bit のOSを選んでください。 
 3. 
 
