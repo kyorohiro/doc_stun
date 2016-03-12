@@ -11,6 +11,7 @@ main(List<String> args) async {
 startUDPServer(String host, int port) async {
   RawDatagramSocket socket = await RawDatagramSocket.bind(host, port, reuseAddress: true);
   socket.listen((RawSocketEvent event) {
+    print("--receive");
     if (event == RawSocketEvent.READ) {
       Datagram dg = socket.receive();
       String content = "${dg.address}\n${dg.port}\n";
