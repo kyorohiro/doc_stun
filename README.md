@@ -7,7 +7,7 @@
 https://github.com/kyorohiro/tetorica
 
 
-# [1] はじめに
+# はじめに
 
 ### Webアプリはお金がかかる
 私たちは現在、さまざまなWebサービスを利用しています。そのほとんどが無料です。
