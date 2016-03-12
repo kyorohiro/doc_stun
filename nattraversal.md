@@ -212,7 +212,7 @@ STUNでは、もう少し細かく分類してくれます。
 
 |\|PP|PS|SP|SS||
 |-|-|-|-|-|-|
-|Open Internet|o|-|-|o|ifconfigのIPとサーバーが受け取ったIPが同じ|
+|Open Internet|o|-|-|o|ifconfigのIPとSTUNサーバーから受け取ったIPが同じ|
 |||||
 |||||
 
