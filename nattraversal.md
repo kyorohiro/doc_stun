@@ -1,4 +1,4 @@
-# Nat越えしてみ# Nat越えしてみぁよう
+# Nat越えしてみ# Nat越えしてみぁ# Nat越えしてみ# Nat越えしてみぁふよう
 　実際にNat越えしてみましょう。徐々に拡張しながら、STUNへ近づけていきます。
  
  
@@ -47,7 +47,7 @@ TODO
 
 |\|PP|PS|SP|SS||
 |-|-|-|-|-|-|
-|Open Internet|o|-|-|o|
+|Open Internet|o|-|-|o|ifconfigのIP|
 |||||
 |||||
 
