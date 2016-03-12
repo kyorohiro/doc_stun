@@ -4,9 +4,15 @@
 
 特に解説すべき点はないと思います。
 
-RFC
+以下のRFCを参考にして
 
+http://tools.ietf.org/html/rfc5389
 
+http://tools.ietf.org/html/rfc5769
+
+http://tools.ietf.org/html/rfc5780
+
+http://tools.ietf.org/html/rfc3489
 
 
 
