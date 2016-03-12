@@ -45,9 +45,9 @@ TODO
 
 #### STUN の分類方法
 
-|\|PP|PS|SP|SS|
-|-|-|-|-|-|
-|Open Internet||||
+|\|PP|PS|SP|SS||
+|-|-|-|-|-|-|
+|Open Internet|o|-|-|o|
 |||||
 |||||
 
