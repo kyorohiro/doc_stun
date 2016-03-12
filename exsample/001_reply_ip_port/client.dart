@@ -8,7 +8,7 @@ main(List<String> args) async {
   int svPort = int.parse(args[3]);
 
   startUDPClient(clAddr, clPort, svAddr, svPort);
-  startTCPClient(svAddr, svPort);
+  //startTCPClient(svAddr, svPort);
 }
 
 startUDPClient(String clAddr, int clPort, String svAddr, int svPort) async {
