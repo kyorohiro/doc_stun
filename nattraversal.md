@@ -96,10 +96,17 @@ client側のコードも30行程度ですね!!
 はい、UDPもTCPもIPアドレスを特定する事ができます。しかし、TCPだと、どのようなPort番号が設定されているかを確認する方法がないですね。
 
 ```
+RawDatagramSocket socket = await RawDatagramSocket.bind(clAddr, clPort, reuseAddress: true);
+socket.send(UTF8.encode("test"), new InternetAddress(svAddr), svPort);
+```
+```
   Socket socket = await Socket.connect(svAddr, svPort);
   socket.add(UTF8.encode(""));
 ```
 
+UDPで、サーバーに接続する場合は、サーバーとして動作しているSocketを利用して接続できます。しかし、TCPでは、サーバーに接続する場合は、サーバーへ接続専用のSocketを利用しています。
+
+このため、TCPは、サーバーとして待ち受けしているSocketのIPとPortが実際に何を指しているかを、判定できません。
 
 
 
