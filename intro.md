@@ -14,6 +14,10 @@
 
 しかし、無料で利用していますが、その運営費は巨額です。
 
+
+(ref https://aws.amazon.com/jp/cdp/cdn/)
+
+
 例えば、ファイル共有サービスを作るとしましょう。AWS GAE mBaaSとかの例を書く
 
 
