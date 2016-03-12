@@ -17,7 +17,7 @@ startUDPClient(String clAddr, int clPort, String svAddr, int svPort) async {
     if (event == RawSocketEvent.READ) {
       Datagram dg = socket.receive();
       print("--");
-      print("  [receive udp] ${dg.address} ${dg.port}");
+      print("  [receive udp] ${dg.address.address} ${dg.port}");
       print("  ${UTF8.decode(dg.data,allowMalformed:true)}");
       print("--");
     }
