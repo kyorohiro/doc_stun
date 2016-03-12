@@ -79,7 +79,7 @@ Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)�
 ###### 1.3. ubuntu 64bit のOSを選んでください。 
 ##### 2. ログインする
 ###### 2.1. $ssh root@<your ip> -p <your port>
-###### 2.2. 
+##### s.2. 
 
 
 
