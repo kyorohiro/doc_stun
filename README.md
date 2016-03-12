@@ -1,3 +1,5 @@
+![](cover.jpg)
+
 # なぜなにSTUN 
 
 本書は、"なぜなに Torrent"の姉妹本です。
