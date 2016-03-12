@@ -77,7 +77,9 @@ Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)�
 ###### 1.1. http://dream.jp/vps/
 ###### 1.2. standard plan を選択 (934円 per 月)
 ###### 1.3. ubuntu 64bit のOSを選んでください。 
-##### 2. 
+##### 2. ログインする
+###### 2.1. $ssh root@<your ip> -p <your port>
+###### 2.2. 
 
 
 
