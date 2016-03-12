@@ -1,6 +1,7 @@
 # Summary
 
-* [はじめに](README.md)
+* [Cover](README.md)
+* [はじめに](intro.md)
 * [STUNとは](aboutstun.md)
 * [Nat越えしてみよう](nattraversal.md)
 * [実装してみよう](implement.md)
