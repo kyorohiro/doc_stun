@@ -14,7 +14,7 @@ startUDPServer(String host, int port) async {
     print("--receive udp ${host} ${port}");
     if (event == RawSocketEvent.READ) {
       Datagram dg = socket.receive();
-      String content = "${dg.address.address}\n${dg.port}\n";
+      String content = "${dg.address.address},${dg.port}\n";
       socket.send(UTF8.encode(content), dg.address, dg.port);
     }
   });
@@ -24,7 +24,7 @@ startTCPServer(String host, int port) async {
   ServerSocket server = await ServerSocket.bind(host, port);
   server.listen((Socket socket) {
     print("--receive tcp");
-    String content = "${socket.remoteAddress.address}\n${socket.remotePort}\n";
+    String content = "${socket.remoteAddress.address},${socket.remotePort}\n";
     socket.add(UTF8.encode(content));
     socket.remoteAddress;
     socket.remotePort;
