@@ -202,7 +202,7 @@ startUDPClient(String clAddr, int clPort, String svAddr, int svPort, String type
 }
 ```
 
-どうでしょうか。30行程度のコードです。
+どうでしょうか。30行程度のコードでした。
 
 
 
