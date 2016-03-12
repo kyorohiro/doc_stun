@@ -73,11 +73,11 @@ Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)�
 ### ServersMan@VPSを利用する場合
 
 2016/3/12 現在に試してもので、将来的に保証されるものではあれません。
-1. ServersManからStandard Plan を契約する。
-  http://dream.jp/vps/
-  934円
-  ubuntu 64bit のOSを選んでください。 
-2.  
+##### 1. ServersManからStandard Plan を契約する。
+1.1. http://dream.jp/vps/
+1.2. 934円
+1.3. ubuntu 64bit のOSを選んでください。 
+2. s
 
 
 
