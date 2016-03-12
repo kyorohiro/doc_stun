@@ -8,7 +8,7 @@ main(List<String> args) async {
   int svPort = int.parse(args[3]);
 
   startUDPClient(clAddr, clPort, svAddr, svPort);
-  //startTCPClient(svAddr, svPort);
+  startTCPClient(svAddr, svPort);
 }
 
 startUDPClient(String clAddr, int clPort, String svAddr, int svPort) async {
@@ -22,7 +22,7 @@ startUDPClient(String clAddr, int clPort, String svAddr, int svPort) async {
       print("--");
     }
   });
-  socket.send(UTF8.encode(""), new InternetAddress(svAddr), svPort);
+  socket.send(UTF8.encode("test"), new InternetAddress(svAddr), svPort);
 }
 
 startTCPClient(String svAddr, int svPort) async {

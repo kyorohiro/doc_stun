@@ -5,7 +5,7 @@ main(List<String> args) async {
   String host = args[0];
   int port = int.parse(args[1]);
   startUDPServer(host, port);
-  //startTCPServer(host, port);
+  startTCPServer(host, port);
 }
 
 startUDPServer(String host, int port) async {
