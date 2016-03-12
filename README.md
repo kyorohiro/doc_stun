@@ -77,7 +77,7 @@ Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)�
 1.1. http://dream.jp/vps/
 1.2. 934円
 1.3. ubuntu 64bit のOSを選んでください。 
-2. s
+####2. s
 
 
 
