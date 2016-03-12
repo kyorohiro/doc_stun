@@ -14,16 +14,15 @@ startUDPServer(String primaryAddr, int primaryPort, String secondaryAddr, int se
   RawDatagramSocket psSocket = await RawDatagramSocket.bind(primaryAddr, secondaryPort, reuseAddress: true);
   RawDatagramSocket spSocket = await RawDatagramSocket.bind(secondaryAddr, primaryPort, reuseAddress: true);
   RawDatagramSocket ssSocket = await RawDatagramSocket.bind(secondaryAddr, secondaryPort, reuseAddress: true);
+  Map sockets = {"PP": ppSocket, "PS": psSocket, "SP": spSocket, "SS": ssSocket};
   ppSocket.listen((RawSocketEvent event) {
     if (event == RawSocketEvent.READ) {
-      try {
-        Datagram dg = ppSocket.receive();
-        String request = UTF8.decode(dg.data);
-        String content = "${dg.address.address},${dg.port}\n";
-
-        print("udp: ${content}");
-        ppSocket.send(UTF8.encode(content), dg.address, dg.port);
-      } catch (e) {}
+      Datagram dg = ppSocket.receive();
+      String request = UTF8.decode(dg.data);
+      String content = "${dg.address.address},${dg.port}\n";
+      print("udp: ${request}");
+      RawDatagramSocket socket = sockets[content];
+      socket.send(UTF8.encode(content), dg.address, dg.port);
     }
   });
 }
