@@ -80,8 +80,15 @@ Serversman (http://dream.jp/vps/)、DigitalOcean(https://www.digitalocean.com/)�
 ###### 1.3. ubuntu 64bit のOSを選んでください。 
 ##### 2. ログインする
 ###### 2.1. $ssh root@(your ip) -p (your port)
-###### 2.2. $ssh root@(your ip) -p (your port)
-###### 2.3. 
+##### 3. 色々インストールする
+###### 3.1 $apt-get update
+###### 3.2 $apt-get install git
+###### 3.3 $apt-get install emacs
+##### 4. Dartをインストール
+https://www.dartlang.org/downloads/linux.html
+###### 3.4 $apt-get update
+###### 3.5 $apt-get install apt-transport-https
+###### 3.6 $sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -'
 
 
 
