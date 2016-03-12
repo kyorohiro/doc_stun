@@ -29,7 +29,6 @@ startUDPServer(String svAddr, int svPort) async {
     if (event == RawSocketEvent.READ) {
       Datagram dg = socket.receive();
       String content = "${dg.address.address},${dg.port}\n";
-      print("udp: ${content}");
       socket.send(UTF8.encode(content), dg.address, dg.port);
     }
   });
@@ -39,7 +38,6 @@ startTCPServer(String host, int port) async {
   ServerSocket server = await ServerSocket.bind(host, port);
   server.listen((Socket socket) {
     String content = "${socket.remoteAddress.address},${socket.remotePort}\n";
-    print("tcp: ${content}");
     socket.add(UTF8.encode(content));
   });
 }
