@@ -13,7 +13,9 @@ https://github.com/kyorohiro/tetorica
 私たちは現在、さまざまなWebサービスを利用しています。そのほとんどが無料です。スマートフォンから地図を開いたり。ソーシャルネットワークで友人と連絡したり。Google検索して、調べ物をしたり。Youtubeで動画を見たり。
 
 しかし、無料で利用していますが、その運営費は巨額です。
-[TODO] AWS GAE mBaaSとかの例を書く
+
+[TODO] 
+AWS GAE mBaaSとかの例を書く
 
 
 
