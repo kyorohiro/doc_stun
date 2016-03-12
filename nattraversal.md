@@ -41,11 +41,11 @@ startTCPServer(String host, int port) async {
     String content = "${socket.remoteAddress.address},${socket.remotePort}\n";
     print("tcp: ${content}");
     socket.add(UTF8.encode(content));
-    socket.remoteAddress;
-    socket.remotePort;
   });
 }
 ```
+
+これは、サーバーにアクセスしてきた、端末のIPアドレスとPORT番号を返すプログラムです。30行程度ですが、十分機能します。
 
 
 
