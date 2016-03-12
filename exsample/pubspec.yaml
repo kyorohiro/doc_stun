@@ -1,0 +1,6 @@
+name: nazenani_stun
+version: 0.0.1
+description: sample code
+
+environment:
+  sdk: '>=1.0.0 <2.0.0'
