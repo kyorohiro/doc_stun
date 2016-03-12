@@ -17,7 +17,7 @@ startUDPClient(String clAddr, int clPort, String svAddr, int svPort) async {
     if (event == RawSocketEvent.READ) {
       Datagram dg = socket.receive();
       print("--");
-      print("  [receive] ${dg.address} ${dg.port}");
+      print("  [receive udp] ${dg.address} ${dg.port}");
       print("  ${UTF8.decode(dg.data,allowMalformed:true)}");
       print("--");
     }
@@ -29,7 +29,7 @@ startTCPClient(String svAddr, int svPort) async {
   Socket socket = await Socket.connect(svAddr, svPort);
   socket.listen((List<int> data) {
     print("--");
-    print("  [receive]");
+    print("  [receive tcp]");
     print("  ${UTF8.decode(data,allowMalformed:true)}");
     print("--");
   });
