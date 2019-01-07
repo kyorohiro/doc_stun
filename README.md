@@ -1,6 +1,6 @@
 ![](cover.jpg)
 
-[By kyorohiro \(河村潔広\)](http://kyorohiro.github.io/)
+[By kyorohiro ](http://kyorohiro.github.io/)
 
 * [はじめに](intro.md)
 * [STUNとは](aboutstun.md)
